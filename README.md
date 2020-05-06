@@ -19,7 +19,7 @@ https://github.com/HaniehP/PersianNER
 
 This dataset includes 250,015 tokens and 7,682 Persian sentences in total. Each file contains one token, along with its manually annotated named-entity tag, per line. Each sentence is separated with a newline. The NER tags are in IOB format.
 
-The IOB format (short for inside, outside, beginning) is a common tagging format for tagging tokens in a chunking task in computational linguistics (ex. named entity recognition)
+**The IOB format (short for inside, outside, beginning) is a common tagging format for tagging tokens in a chunking task in computational linguistics (ex. named entity recognition)**
 
 An example with IOB format:
 
