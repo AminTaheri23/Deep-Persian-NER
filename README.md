@@ -1,4 +1,7 @@
 # Deep Persian NER
+<p align="center">
+<img src="https://amintaheri23.github.io/img/portfolio/ner.png">
+</p>
 Persian Named Entity Classification from Arman Rayan Sharif corpus with deep learning
 
 ## About
