@@ -5,9 +5,9 @@
 Persian Named Entity Classification from Arman Rayan Sharif corpus with deep learning
 
 ## About
-In this project, your task is to build and train a model to recognize Named Entities from a sentence. This model should give a tag to each word from a sentence. A classical application is Named Entity Recognition (NER). main file is [here](https://github.com/AminTaheri23/Deep-Persian-NER/blob/master/Amin_Taheri_DeepNLp_Final_Project.ipynb)
+In this project, I built and trained a model to recognize Named Entities from a sentence. This model should give a tag to each word from a sentence. A classical application for Natural Language Processing. The main file is [here](https://github.com/AminTaheri23/Deep-Persian-NER/blob/master/Amin_Taheri_DeepNLp_Final_Project.ipynb)
 
-for replicating results you will need to download PersianNER dataset from [this section](https://github.com/AminTaheri23/Deep-Persian-NER#armanpersonercorpus) (link below in ArmanPersoNERCorpus and you need to change path in ipynb file) and you also need a fastext pretrained model. my fastext model is [here](https://drive.google.com/file/d/1-2xzg-26qqp59PUql_KMWQ7gLli11x_h/view?usp=sharing). you can add it to your drive and use the correct path to address it. (it is recommended that to use this ipynb file in _Google Colab_)
+for replicating results you will need to download PersianNER dataset from [this section](https://github.com/AminTaheri23/Deep-Persian-NER#armanpersonercorpus) (link below in ArmanPersoNERCorpus and you need to change path in ipynb file) and you also need a fastext pretrained model. My fastest model is [here](https://drive.google.com/file/d/1-2xzg-26qqp59PUql_KMWQ7gLli11x_h/view?usp=sharing). you can add it to your drive and use the correct path to address it. (it is recommended to use this ipynb file in _Google Colab_)
 
 ## Named Entity Recognition (NER)
 Named Entity Recognition is a process where an algorithm takes a string of text (sentence or paragraph) as input and identifies relevant nouns (people, places, organizations, and...) that are mentioned in that string. Here is an example:
@@ -20,9 +20,9 @@ B-PER O    O  B-LOC I-LOC O  O         O    B-ORG
 ## ArmanPersoNERCorpus
 https://github.com/HaniehP/PersianNER
 
-This dataset includes 250,015 tokens and 7,682 Persian sentences in total. Each file contains one token, along with its manually annotated named-entity tag, per line. Each sentence is separated with a newline. The NER tags are in IOB format.
+This dataset includes 250,015 tokens and 7,682 Persian sentences in total. Each file contains one token, along with its manually annotated named-entity tag, per line. Each sentence is separated by a new line. The NER tags are in IOB format.
 
-**The IOB format (short for inside, outside, beginning) is a common tagging format for tagging tokens in a chunking task in computational linguistics (ex. named entity recognition)**
+**The IOB format (short for inside, outside, beginning) is a common tagging format for tagging tokens in a chunking task in computational linguistics (eg. named entity recognition)**
 
 An example with IOB format:
 
